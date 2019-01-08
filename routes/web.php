@@ -12,4 +12,5 @@
 */
 
 Route::get('/', 'PagesController@index')->name('home');
+Route::get('technical', 'PagesController@tech')->name('tech');
 

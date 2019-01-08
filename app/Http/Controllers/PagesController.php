@@ -10,4 +10,9 @@ class PagesController extends Controller
     {
         return view('pages.index');
     }
+
+    public function tech()
+    {
+        return view('pages.technical');
+    }
 }

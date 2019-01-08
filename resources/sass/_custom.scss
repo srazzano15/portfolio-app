@@ -1,0 +1,77 @@
+.navbar
+{
+    margin-bottom: 1.25em;
+    
+}
+
+#mainNav .nav-link
+{
+    color: #e9ecef;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 .5em;
+
+    &:hover
+    {
+        transform: scale(.9);
+        -webkit-transition: transform .05s ease-in-out;
+        -moz-transition: transform .05s ease-in-out;
+        -o-transition: transform .05s ease-in-out;
+        transition: transform .05s ease-in-out;
+    }
+}
+
+.footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #883197;
+}
+
+.nav-tabs .nav-link
+{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#e9ecef;
+    
+    &:hover 
+    {
+        -webkit-transition: border-color .2s ease-in-out;
+        -moz-transition: border-color .2s ease-in-out;
+        -o-transition: border-color .2s ease-in-out;
+        transition: border-color .2s ease-in-out;
+        -webkit-box-shadow: 0 -2px 20px -5px rgba(0, 0, 0, .2);
+        -moz-box-shadow: 0 -2px 20px -5px rgba(0, 0, 0, .2);
+        box-shadow: 0 -2px 20px -5px rgba(0, 0, 0, .2);
+    }
+
+}
+
+.nav-tabs .nav-link.active 
+{
+    color: #883197;
+    background-color: transparent;
+    -webkit-box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, .2);
+    box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, .2);
+}
+
+h1, h2, h3, h4, h5
+{
+    color: #883197;
+    letter-spacing: 1.5px
+    
+}
+
+.socialIcons i
+{
+    color: #e9ecef;
+}
+
+.tabWrapper
+{
+    
+}
